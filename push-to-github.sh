@@ -2,7 +2,7 @@
 # push-to-github.sh: Git (post-receive) hook to push/clone changes to Github
 #
 #   Copyright 2013 Sudaraka Wijesinghe <sudaraka.org/contact>
-
+#
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
 #   the Free Software Foundation, either version 3 of the License, or
@@ -30,7 +30,7 @@ echo '';
 echo 'push-to-github Copyright 2013 Sudaraka Wijesinghe';
 echo 'This program comes with ABSOLUTELY NO WARRANTY;';
 echo 'This is free software, and you are welcome to redistribute it';
-echo 'under certain conditions.';
+echo 'under certain conditions under GNU GPLv3 or later.';
 echo '';
 
 if [ ! -z `git remote|grep "$REMOTE"` ]; then
