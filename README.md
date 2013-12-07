@@ -1,7 +1,7 @@
-push-to-github
-==============
+push-to-remotes
+===============
 
-Git hook script to keep local server repositories in sync with Github
+Git hook script to keep local server repositories in sync with remotes
 
 Copyright 2013 [Sudaraka Wijesinghe] [url_contact].
 
