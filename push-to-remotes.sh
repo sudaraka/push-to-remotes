@@ -22,8 +22,6 @@
 # * Copy or symlink this script to hooks/post-receive in the repository
 #
 
-BRANCH='refs/heads/master'
-
 echo '';
 echo 'push-to-remotes Copyright 2013 Sudaraka Wijesinghe';
 echo 'This program comes with ABSOLUTELY NO WARRANTY;';
@@ -33,15 +31,13 @@ echo '';
 
 while read OLDREV NEWREV REFNAME;
 do
-    if [ "$REFNAME" = "$BRANCH" ]; then
-        for remote in `git remote`; do
-            echo "PUSHING TO: $remote";
+    for remote in `git remote`; do
+        echo "Pushing '$REFNAME' to '$remote'";
 
-            git push $remote $REFNAME:$BRANCH;
+        git push $remote $REFNAME:$REFNAME;
 
-            echo '';
-        done;
-    fi;
+        echo '';
+    done;
 done;
 
 exit 0;
