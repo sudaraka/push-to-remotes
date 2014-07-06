@@ -3,7 +3,7 @@ push-to-remotes
 
 Git hook script to keep local server repositories in sync with remotes
 
-Copyright 2013 [Sudaraka Wijesinghe] [url_contact].
+Copyright 2013, 2014 [Sudaraka Wijesinghe] [url_contact].
 
 License
 -------

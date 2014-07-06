@@ -1,7 +1,7 @@
 #!/bin/sh
 # push-to-remotes: Git (post-receive) hook to push/clone changes to remotes
 #
-#   Copyright 2013 Sudaraka Wijesinghe <sudaraka.org/contact>
+#   Copyright 2013, 2014 Sudaraka Wijesinghe <sudaraka.org/contact>
 #
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
 #
 
 echo '';
-echo 'push-to-remotes Copyright 2013 Sudaraka Wijesinghe';
+echo 'push-to-remotes Copyright 2013, 2014 Sudaraka Wijesinghe';
 echo 'This program comes with ABSOLUTELY NO WARRANTY;';
 echo 'This is free software, and you are welcome to redistribute it';
 echo 'under certain conditions under GNU GPLv3 or later.';
